@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+.container{
+    background-image: url(https://cdn.pixabay.com/photo/2016/02/05/19/51/stained-glass-1181864_960_720.jpg);/*("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M1085.0894421442638 376.3206838829839L1200.1000147810082 425.13977556512725 1133.9085338264072 261.31011124623956z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1080.4735695783165 77.79787855706459L1157.2370707809991 146.91604549442215 1226.3552377183569 70.15254429173942 1149.591736515674 1.03437735438186z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1169.884%2c722.51C1230.84%2c726.83%2c1289.258%2c688.601%2c1316.054%2c633.68C1340.331%2c583.922%2c1318.089%2c527.533%2c1287.542%2c481.359C1260.693%2c440.775%2c1218.53%2c413.971%2c1169.884%2c412.736C1118.875%2c411.441%2c1066.469%2c430.666%2c1041.402%2c475.109C1016.682%2c518.936%2c1032.483%2c570.573%2c1055.674%2c615.228C1081.475%2c664.91%2c1114.042%2c718.553%2c1169.884%2c722.51' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1161.0936391085324 63.717815952536135L1104.8958887331382-22.819130895730908 1003.1893436484347 104.74596809149358z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1015.8963501675522 585.4417689211832L974.2623639190664 487.3582439190143 876.1788389168975 528.9922301675002 917.8128251653833 627.075755169669z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M626.207%2c406.39C647.972%2c406.323%2c671.852%2c403.868%2c683.407%2c385.424C695.501%2c366.12%2c691.482%2c340.989%2c679.199%2c321.805C667.852%2c304.082%2c647.241%2c296.727%2c626.207%2c296.085C603.714%2c295.399%2c579.492%2c299.475%2c567.301%2c318.39C554.257%2c338.628%2c555.004%2c365.766%2c568.398%2c385.775C580.595%2c403.996%2c604.28%2c406.457%2c626.207%2c406.39' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");*/
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:brown ;
+    width: 100%  
+
+
+} 
+h1{
+    font-size: 80px;
+    margin: 0;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0,0,0.5);
+}
+textarea{
+    margin: 30px 0;
+    width: 400px;
+    height: 200px;
+    box-shadow: 12px 12px 15px rgba(0,0,0.5);
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+  
+}  
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: white;
+    box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+textarea:hover{
+    background-color: aqua;
+}
+button:hover{
+    background-color: aqua;
+}
